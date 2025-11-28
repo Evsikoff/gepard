@@ -4831,7 +4831,7 @@ class Xs {
 }
 class Ks {
     constructor() {
-        this.soundButton = document.querySelector(".sound-button"), this.muteLabel = window.i18n?.mute || "Mute Sound", this.unmuteLabel = window.i18n?.unmute || "Unmute Sound", this.initListeners(), localStorage.getItem("isMuted") === "true" && this.toggleSound(!1, !1)
+        this.soundButton = document.querySelector(".sound-button"), this.muteLabel = window.i18n?.mute || "Выключить звук", this.unmuteLabel = window.i18n?.unmute || "Включить звук", this.initListeners(), localStorage.getItem("isMuted") === "true" && this.toggleSound(!1, !1)
     }
     initListeners() {
         this.soundButton.addEventListener("click", this.switchSound.bind(this))
