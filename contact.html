@@ -29,7 +29,7 @@
     <meta name="twitter:description" content="Контактная информация Притыкиной Юлии Сергеевны: телефон, Telegram и электронная почта.">
     <meta name="twitter:image" content="https://www.utsubo.com/share/twitter.png">
     <script>
-        (function() {
+        (function () {
             if ('scrollRestoration' in history) {
                 history.scrollRestoration = 'manual';
             }
@@ -125,7 +125,7 @@
                 <a href="/" class="nav-logo-link flx" aria-label="Utsubo Homepage"></a>
             </li>
             <li>
-                <a id="nav-contact" href="/contact" class="nav-btn active">
+                <a id="nav-contact" href="/contact" class="nav-btn show">
                     <span class="relative flx mask-anim ">
                         <span class="light-txt">Контакты</span>
                         <span class="mask-l1 mask-appear" style="--apg-1: 0; --apg-2: 0;" aria-hidden="true">Контакты</span>
@@ -135,14 +135,16 @@
             </li>
         </ul>
         <div class="copyrights flx-center">
-            <p class="flx"> <span>&copy;</span><span></span> </p>
+            <p class="flx">
+                <span>&copy; 2024</span><span>UTSUBO</span>
+            </p>
         </div>
         <div class="lang-links flx-center w-100">
             <a href="/ja" class="lang-btn simple-hover ja">
                 <span class="flx ">
                     <span class="ha-itm"> <span class="ha-txt ha-txto ht-1">日</span> <span class="ha-txtb ha-txto ht-1"
-                            aria-hidden="true">日</span> </span><span class="ha-itm"> <span class="ha-txt ha-txto ht-2">本</span> <span
-                            class="ha-txtb ha-txto ht-2" aria-hidden="true">本</span> </span><span class="ha-itm"> <span
+                            aria-hidden="true">日</span> </span><span class="ha-itm"> <span class="ha-txt ha-txto ht-2">本</span>
+                        <span class="ha-txtb ha-txto ht-2" aria-hidden="true">本</span> </span><span class="ha-itm"> <span
                             class="ha-txt ha-txto ht-3">語</span> <span class="ha-txtb ha-txto ht-3" aria-hidden="true">語</span>
                     </span>
                 </span>
@@ -163,7 +165,7 @@
                 </span>
                 <span class="flx ">
                     <span class="ha-itm"> <span class="ha-txt ha-txto ht-5">E</span> <span class="ha-txtb ha-txto ht-5"
-                            aria-hidden="true">E</span> </span><span class="ha-itm"> <span class="ha-txt ha-txto ht-6">X</span> <span
+                            aria-hidden="true">E</span> </span><span class="ha-itm"> <span class="ha-txt ha-txto ht-6">X</span><span
                             class="ha-txtb ha-txto ht-6" aria-hidden="true">X</span> </span><span class="ha-itm"> <span
                             class="ha-txt ha-txto ht-7">P</span> <span class="ha-txtb ha-txto ht-7" aria-hidden="true">P</span>
                     </span><span class="ha-itm"> <span class="ha-txt ha-txto ht-8">E</span> <span class="ha-txtb ha-txto ht-8"
@@ -196,8 +198,7 @@
                         </feColorMatrix>
                         <feBlend mode="normal" in2="shape" result="effect1_innerShadow_11800_9706"></feBlend>
                     </filter>
-                    <linearGradient id="paint0_linear_11800_9706" x1="70" y1="0" x2="70" y2="140"
-                        gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint0_linear_11800_9706" x1="70" y1="0" x2="70" y2="140" gradientUnits="userSpaceOnUse">
                         <stop stop-color="#FCFCFC" stop-opacity="0.737255"></stop>
                         <stop offset="1" stop-opacity="0"></stop>
                     </linearGradient>
@@ -205,37 +206,102 @@
             </svg></button>
         <div class="loading-logo abs-center flx-center unselectable">
             <div class="ll-circle abs-center z2">
-                <div class="ll-circle-rotate"> <img src="/top/ll-circle.webp" width="184" height="184" aria-hidden alt="bubble">
+                <div class="ll-circle-rotate">
+                    <img src="/top/ll-circle.webp" width="184" height="184" aria-hidden alt="bubble">
                 </div>
             </div>
         </div>
-        <div class="loading-cnt unselectable fixed small-txt"> <span id="loading" class="flx abs-center">0%</span> <span
-                class="loading-complete flx unselectable">ЛУЧШЕ СО ЗВУКОМ</span> </div>
+        <div class="loading-cnt unselectable fixed small-txt">
+            <span id="loading" class="flx abs-center">0%</span>
+            <span class="loading-complete flx unselectable">ЛУЧШЕ СО ЗВУКОМ</span>
+        </div>
     </div>
+
     <main>
-        <section class="contact-page fixed-full flx-center z1">
-            <div class="contact-content flx-column align-center" data-lenis-prevent-touch>
-                <h1 class="contact-title anim-mask-grp">
-                    <span class="relative flx mask-anim ">
-                        <span class="light-txt">Контакты</span>
-                        <span class="mask-l1 mask-appear" style="--apg-1: 0; --apg-2: 0;" aria-hidden="true">Контакты</span>
-                        <span class="mask-l2 mask-appear" style="--apg-1: 0; --apg-2: 0;" aria-hidden="true">Контакты</span>
+        <div data-taxi>
+            <div data-taxi-view="contact">
+                <section class="about scroll-container fixed-full flx-center z1 hide contact-section">
+                    <div class="about-container flx space-between" data-lenis-prevent-touch>
+                        <h1 class="about-ttl anim-mask-grp">
+                            <span class="relative flx mask-anim ">
+                                <span class="light-txt">Контакты</span>
+                                <span class="mask-l1 mask-appear" style="--apg-1: 0; --apg-2: 0;" aria-hidden="true">Контакты</span>
+                                <span class="mask-l2 mask-appear" style="--apg-1: 0; --apg-2: 0;" aria-hidden="true">Контакты</span>
+                            </span>
+                        </h1>
+                        <div class="about-cnt flx-column en">
+                            <div class="tnv-anim about-txtc flx-column">
+                                <p class="about-txt">
+                                    <span class="about-txt-line atl-1"><strong>Притыкина Юлия Сергеевна</strong><br />
+                                        Консультант по стратегическому развитию бизнеса<br />
+                                        Сертифицированный ОКР-коуч<br /><br /></span>
+                                    <span class="about-txt-line atl-2"><strong>Телефон:</strong> <a href="tel:89150008552">8-915-000-85-52</a><br /></span>
+                                    <span class="about-txt-line atl-3"><strong>Telegram:</strong> <a href="https://t.me/JuliaPritikina" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">@JuliaPritikina</a><br /></span>
+                                    <span class="about-txt-line atl-4"><strong>E-mail:</strong> <a href="mailto:Julsayonara@gmail.com" style="color: inherit; text-decoration: underline;">Julsayonara@gmail.com</a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="htibtn fixed z1 vhidden">
+            <div class="htibtn-main">
+                <div class="htibtn_cont flx-center relative">
+                    <div class="htibtn_circ">
+                        <svg class="progress-circle" width="120" height="120">
+                            <circle class="progress-circle-fill" cx="60" cy="60" r="58" stroke-width="2" fill="none"
+                                stroke-dasharray="282.6" stroke-dashoffset="282.6"></circle>
+                            <circle class="pcf-locked" cx="60" cy="60" r="56" stroke-width="4" fill="none"
+                                stroke-dasharray="282.6" stroke-dashoffset="282.6"></circle>
+                        </svg>
+                    </div>
+                    <div class="htibtn_cont_bg"></div>
+                    <div class="htibtn_cont_pulsar"></div>
+                    <span class="flx-column relative z2 flx-center">
+                        <span class="hold-tr flx">
+                            <span class="ha-itm"><span class="ha-txt ha-txto ht-1">Н</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-2">А</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-3">Ж</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-4">М</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-5">И</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-6">Т</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-7">Е</span></span>
+                        </span>
+                        <span class="tap-tr dnone" aria-hidden>
+                            <span class="ha-itm"><span class="ha-txt ha-txto ht-1">Н</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-2">А</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-3">Ж</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-4">М</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-5">И</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-6">Т</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-7">Е</span></span>
+                        </span>
+                        <span class="flx-center">
+                            <span class="ha-itm"><span class="ha-txt ha-txto ht-8">Д</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-9">Л</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-10">Я</span></span><span class="ha-itm"><span>&nbsp;</span></span><span
+                                class="ha-itm"><span class="ha-txt ha-txto ht-11">П</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-12">О</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-13">Д</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-14">Р</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-15">О</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-16">Б</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-17">Н</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-18">О</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-19">С</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-20">Т</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-21">Е</span></span><span class="ha-itm"><span
+                                    class="ha-txt ha-txto ht-22">Й</span></span>
+                        </span>
                     </span>
-                </h1>
-                <div class="contact-details flx-column">
-                    <p class="about-txt">
-                        Притыкина Юлия Сергеевна<br />
-                        Консультант по стратегическому развитию бизнеса<br />
-                        Сертифицированный ОКР-коуч
-                    </p>
-                    <p class="about-txt"><strong>Телефон:</strong> <a href="tel:89150008552">8-915-000-85-52</a></p>
-                    <p class="about-txt"><strong>Telegram:</strong> <a href="https://t.me/JuliaPritikina">https://t.me/JuliaPritikina</a>
-                    </p>
-                    <p class="about-txt"><strong>E-mail:</strong> <a href="mailto:Julsayonara@gmail.com">Julsayonara@gmail.com</a>
-                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+        <button class="htibtn-close fixed z1">
+            <span class="fadeinout">НАЖМИТЕ СЮДА, ЧТОБЫ ЗАКРЫТЬ</span>
+        </button>
+
         <div id="app"></div>
     </main>
     <video class="ll-video abs-center z1" autoplay loop muted playsinline>
